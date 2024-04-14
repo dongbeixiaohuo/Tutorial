@@ -549,7 +549,7 @@ lmdeploy serve gradio http://localhost:23333 \
 运行命令后，网页客户端启动。在电脑本地新建一个cmd终端，新开一个转发端口：
 
 ```sh
-ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p <你的ssh端口号>
+ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 你的ssh端口号
 ```
 
 打开浏览器，访问地址`http://127.0.0.1:6006`
